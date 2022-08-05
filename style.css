@@ -5,55 +5,102 @@
     font-family: "Poppins";
     list-style: none;
 }
-body{
-    margin-right:80px;
-}
-.img-part {
-    display: flex;
-    justify-content:left ;
+
+body {
     height: 100%vh;
+    width: 100%;
 }
-.nav{
+
+.logo-img {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.head-part {
     display: flex;
-    gap:50px;
+    justify-content: left;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
     position: relative;
-    left:350px;
-    top:30px;
+    left: 10%;
+    top: 3%;
 }
-.head,h1{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Pacifico', Arial;
-    font-size: 80px;
+
+.h-line {
+    border: 1px solid black;
+    width: 300px;
+    height: 1px;
+    position: relative;
+    top: 30px;
+    left: 2%;
 }
+
+.heading {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+
+}
+
 .head {
     display: flex;
-    justify-content: right;
-    text-align: center;
+    flex-direction: column;
     position: relative;
-    /* right:30px; */
-    bottom: 680px;
-    gap:50px;
-    line-height: 50px;
+    bottom: 730px;
+    font-size: 60px;
 }
-.heading>h2{
-    font-size: 70px;
+
+.head1 h1 {
+    font-family: 'Pacifico', Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
 }
-.head2>h2{
+
+.head2 h1 {
     position: relative;
-    left:70px;
+    left: 110px;
+    bottom: 30px;
+
 }
+
 .para {
     display: flex;
     align-items: center;
-    /* gap:60px; */
-    justify-content: right;
-    position:relative;
-    bottom:810px;
-    line-height:20px;  
-    /* right: 60px; */
+    float: right;
+    position: relative;
+    bottom: 890px;
+    /* padding-right: 40px; */
 }
-.dot{
+
+.para p {
+    font-size: 22px;
+}
+
+.bottom {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    position: relative;
+    bottom: 720px;
+    left: 320px;
+    gap: 50px;
+    line-height: 40px;
+}
+
+.v-line {
+    border-left: 1px solid black;
+    height: 250px;
+    position: relative;
+    left: 6%;
+}
+
+.dot {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -61,38 +108,31 @@ body{
     margin: 0 3px;
 }
 
-.bottom {
-    display:flex;
-    text-align: left;
-    justify-content: center;
-    position: relative;
-    bottom: 680px;
-    left: 140px;
-    gap:50px;
-    line-height: 40px;
-} 
-.v-line {
-    border-left: 1px solid black;
-    height: 400px;
-    position: relative;
-    left:2%;   
-}
 .blockquotes {
-    font-size: 54px;
-    margin: 0 15px;
+    font-size: 50px;
+
 }
+
 .pacakage>p {
     border: 1px solid black;
-    width: 250px;
-    height: 50px;
+    width: 240px;
+    height: 40px;
     text-align: center;
     justify-content: center;
     background-color: black;
     color: #ffffff;
-    padding-top: 10px; 
     position: relative;
-    top:150px;
+    top: 60px;
+    right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Pacifico', Arial;
 }
+
 .socials {
-    line-height: 60px;
+    line-height: 40px;
+    position: relative;
+    bottom: 50px;
+    right: 40px;
 }
