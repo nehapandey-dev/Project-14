@@ -6,6 +6,7 @@ Hello there it's Neha Pandey.
 
 ### Challenges
 Since in this project ,I had to work on both HTML and CSS so there were lots of challenges for me like-
+- mobile responsive for min width 300px to max width 700px
 - created horizontal line before navigation menu
 - created vertical line 
 - outline text effect css
@@ -17,6 +18,6 @@ Since in this project ,I had to work on both HTML and CSS so there were lots of 
 
 ### Total time to complete this project
 
-It took me 8 hours to complete this project.
+It took me 9 hours to complete this project.
 
 ![myproject link](./projet14-img.png)
